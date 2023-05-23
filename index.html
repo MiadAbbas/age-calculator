@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="base">
+                <h2>Age Calculator</h2>
+            </div>
+            <div class="block">
+                <p class="title">Date</p>
+                <input type="text" name="date" id="date" placeholder="dd" minlength="1" maxlength="2" required>
+            </div>
+            <div class="block">
+                <p class="title">Month</p>
+                <input type="text" name="month" id="month" placeholder="mm" minlength="1" maxlength="2" required>
+            </div>
+            <div class="block">
+                <p class="title">Year</p>
+                <input type="text" name="year" id="year" placeholder="yyyy"  maxlength="4" required>
+            </div>
+         <br><br><br>
+          <div class="base">
+            <input type="button" name="submit"  value="submit" onclick="age()"/>
+          </div> 
+
+          <div class="age" id="age" style="color: antiquewhite;font-family: 'Satisfy', cursive; font-size: 2.3rem;"></div>
+        </form>
+     </div> 
+
+
+     <script src="./index.js"></script>
+</body>
+</html>

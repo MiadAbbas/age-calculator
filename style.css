@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    
+    font-size: 1.5rem;
+    color: antiquewhite;
+    
+}
+.container {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background:  linear-gradient(35deg, rgb(77, 128, 135), rgb(78, 16, 86));
+    min-height: 100px;
+    width: 750px;
+    margin: 50px auto;
+    border-radius: 5px;
+    padding-top:20px ;
+    height: 600px;
+    box-shadow: rgba(100, 7, 7, 0.35) 0px 5px 15px
+}
+
+.base {
+    width: 100%;
+    margin: 0; 
+}
+
+.base h2 {
+    text-align: center;
+}
+
+.block {
+    padding: 5px 20px;
+    display: inline-block;
+    font-family: 'Satisfy', cursive;
+    font-size: 1.6rem;
+}
+
+input[type=text]{
+    min-height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Satisfy', cursive;
+    font-size: 1.3rem;
+}
+
+input[type=button]{
+    font-family: 'Satisfy', cursive;
+    margin-left: 36%;
+    width: 190px;
+    min-height: 40px;
+    border-radius: 5px;
+    font-size: larger;
+    background: linear-gradient(45deg, rgb(79, 145, 155), rgb(173, 56, 188));
+    color: antiquewhite;
+    padding: 6px;
+}
+.age {
+    padding-top:40px;
+    padding-bottom: 0px;
+    margin-top: 90px;
+    text-align: center;
+    color: rgb(77, 128, 135);
+    line-height: 1.5;
+}
+
+
+input[type=button]:hover 
+{
+  font-size: 1.5rem;
+  transition: 2s;
+   
+}
